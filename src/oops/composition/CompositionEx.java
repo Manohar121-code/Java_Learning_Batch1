@@ -15,5 +15,8 @@ public class CompositionEx {
 		String companyName = company.getName();
 		System.out.println(companyName);
 		
+		
+		String country = karthik.getAddress().getCountry();
+		
 	}
 }
