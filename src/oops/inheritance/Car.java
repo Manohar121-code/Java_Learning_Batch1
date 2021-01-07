@@ -6,6 +6,7 @@ public class Car extends Vehicle {
 
 	public Car() {
 		super();
+		System.out.println("Car constructor called!!!");
 	}
 
 	public Car(int modelNum, String brand) {

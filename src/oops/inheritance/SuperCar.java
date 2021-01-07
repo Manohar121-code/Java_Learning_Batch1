@@ -5,6 +5,7 @@ public class SuperCar extends Car {
 
 	public SuperCar(int cc) {
 		super();
+		System.out.println("super car constructor called!!!");
 		this.cc = cc;
 	}
 

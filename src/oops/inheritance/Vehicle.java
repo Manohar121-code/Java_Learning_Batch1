@@ -6,11 +6,22 @@ public class Vehicle {
 	
 	public Vehicle() {
 		super();
+		System.out.println("Vehicle constructor called!!!");
 	}
 
 	public Vehicle(String vehicleType, int numOfWheels) {
 		super();
 		VehicleType = vehicleType;
+		this.numOfWheels = numOfWheels;
+	}
+	
+	public Vehicle(String vehicleType) {
+		super();
+		VehicleType = vehicleType;
+	}
+	
+	public Vehicle(int numOfWheels) {
+		super();
 		this.numOfWheels = numOfWheels;
 	}
 
