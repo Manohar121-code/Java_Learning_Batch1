@@ -7,7 +7,7 @@ public class ArmstrongNumber {
 //		System.out.println(n + " -> " + check);
 		System.out.println("--");
 		int start = 1;
-		int end = 1000000;
+		int end = 200;
 		for (int i = start; i <= end; i++) {
 			if (checkArmstrongNumber(i)) {
 				System.out.println(i);
