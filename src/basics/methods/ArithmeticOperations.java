@@ -17,6 +17,14 @@ public class ArithmeticOperations {
 		System.out.println("div is - "+division);
 	}
 
+	//this method will do sum of two numbers and return the sum
+	
+	/**
+	 * dhbjhjdjf
+	 * sjjdvjdf
+	 * sdjgvsdj
+	 * 
+	 */
 	public static int sum(int i, int j) {
 		int sum = i + j;
 		return sum;
