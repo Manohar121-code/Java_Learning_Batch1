@@ -1,6 +1,6 @@
 package oops.interfaces;
 
-public class ImplementationClassA extends Sample implements InterfaceA {
+public class ImplementationClass1 extends Sample implements InterfaceA {
 
 	@Override
 	public void test() {
@@ -10,6 +10,11 @@ public class ImplementationClassA extends Sample implements InterfaceA {
 	@Override
 	public void test2() {
 		System.out.println("test2() implemented");
+	}
+
+	@Override
+	public void baseMethod() {
+		System.out.println("baseMethod() implemented");
 	}
 
 }

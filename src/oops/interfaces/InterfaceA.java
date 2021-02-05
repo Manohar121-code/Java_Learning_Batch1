@@ -1,6 +1,6 @@
 package oops.interfaces;
 
-public interface InterfaceA {
+public interface InterfaceA extends InterfaceBase {
 	
 	int i = 10;
 	

@@ -17,4 +17,9 @@ public class ImplementationClass2 implements InterfaceA {
 		System.out.println("impl2 test3() called");
 	}
 
+	@Override
+	public void baseMethod() {
+		System.out.println("impl2 baseMethod() called");
+	}
+
 }
